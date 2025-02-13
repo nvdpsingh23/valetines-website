@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yay! 💕</title>
+    <title>You Said Yes! 💖</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <video autoplay loop playsinline id="background-video">
+        <source src="videos/yesbgvid.mov" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
     <div class="container">
-        <h1>Yay! You said YES! 😍</h1>
-        <p>Can't wait to celebrate together! 💖</p>
+        <h1>You had no other choice! 💘</h1>
+        <p>“Love isn’t something you find. Love is something that finds you.” – Loretta Young</p>
     </div>
+
+    <script>
+        // Ensures the video plays when clicked (in case autoplay fails)
+        document.getElementById("background-video").play();
+    </script>
+
 </body>
 </html>
